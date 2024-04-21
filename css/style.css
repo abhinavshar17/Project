@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --green:#27ae60;
-    --dark-color:#219150;
-    --black:#444;
-    --light-color:#666;
-    --border:.1rem solid rgba(0,0,0,.1);
+    --green:#64d1e9;
+    --dark-color:#e36363;
+    --black:#2d2222;
+    --light-color:#131417;
+    --border:.1rem solid rgba(0, 0, 0, 0.1);
     --border-hover:.1rem solid var(--black);
-    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --box-shadow:0 .5rem 1rem rgba(74, 37, 37, 0.1);
 }
 
 *{
@@ -57,7 +57,7 @@ section{
     transform: translateY(-50%);
     width: 100%;
     height:.01rem;
-    background: rgba(0,0,0,.1);
+    background: rgba(176, 57, 63, 0.1);
     z-index: -1;
 }
 
@@ -65,7 +65,7 @@ section{
     font-size: 3rem;
     padding:.5rem 2rem;
     color:var(--black);
-    background: #fff;
+    background: #93afca;
     border:var(--border);
 }
 
@@ -74,7 +74,7 @@ section{
     display:inline-block;
     padding:.9rem 3rem;
     border-radius: .5rem;
-    color:#fff;
+    color: #420303;
     background:var(--green);
     font-size: 1.7rem;
     cursor: pointer;
@@ -86,7 +86,7 @@ section{
 }
 
 .header .header-1{
-    background:#fff;
+    background:rgb(242, 102, 219);
     padding:1.5rem 9%;
     display: flex;
     align-items: center;
@@ -108,7 +108,7 @@ section{
     height:5rem;
     border:var(--border);
     overflow: hidden;
-    background:#fff;
+    background:#acc2cc;
     display:flex;
     align-items: center;
     border-radius: .5rem;
@@ -160,7 +160,7 @@ section{
 }
 
 .header .header-2 .navbar a{
-    color:#fff;
+    color:white;
     display: inline-block;
     padding:1.2rem;
     font-size: 1.7rem;
@@ -189,7 +189,7 @@ section{
 .bottom-navbar a{
     font-size: 2.5rem;
     padding:2rem;
-    color:#fff;
+    color:#3f9272;
 }
 
 .bottom-navbar a:hover{
@@ -200,7 +200,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:rgba(255,255,255,.9);
+    background:rgba(90, 90, 123, 0.9);
     position:fixed;
     top:0; right:-105%;
     z-index: 10000;
@@ -213,7 +213,7 @@ section{
 }
 
 .login-form-container form{
-    background:#fff;
+    background:#43ffff;
     border:var(--border);
     width:40rem;
     padding:2rem;
@@ -375,7 +375,7 @@ section{
 
 .featured .featured-slider .box .image{
     padding:1rem;
-    background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
+    background: linear-gradient(15deg, #ba8383 30%, #b5bbff 30.1%);
 }
 
 .featured .featured-slider .box:hover .image{
@@ -390,7 +390,7 @@ section{
     border-bottom: var(--border-hover);
     position: absolute;
     top:0; left:0; right: 0;
-    background: #fff;
+    background: #e6eaec;
     z-index: 1;
     transform: translateY(-105%);
 }
@@ -407,7 +407,7 @@ section{
 
 .featured .featured-slider .box .icons a:hover{
     background:var(--green);
-    color:#fff;
+    color:#b6c666;
 }
 
 .featured .featured-slider .box .content{
@@ -438,7 +438,7 @@ section{
     height:4rem;
     width:4rem;
     color:var(--black);
-    background: #fff;
+    background: #000000;
 }
 
 .swiper-button-next::after,
@@ -449,7 +449,7 @@ section{
 .swiper-button-next:hover,
 .swiper-button-prev:hover{
     background: var(--black);
-    color:#fff;
+    color:#c4b4fb;
 }
 
 .newsletter{
@@ -468,7 +468,7 @@ section{
 
 .newsletter form h3{
     font-size: 2.2rem;
-    color:#fff;
+    color:#570d0d;
     padding-bottom: .7rem;
     font-weight: normal;
 }
@@ -523,7 +523,7 @@ section{
 }
 
 .deal{
-    background:#f3f3f3;
+    background:#f6f3f5;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -683,7 +683,7 @@ section{
     width: 5rem;
     line-height: 5rem;
     font-size: 2rem;
-    color:#fff;
+    color:rgb(0, 0, 0);
     background:var(--green);
     margin:0 .3rem;
     border-radius: 50%; 
@@ -713,7 +713,7 @@ section{
     height:100%;
     width: 100%;
     z-index: 10000;
-    background:#f7f7f7;
+    background:#eff8f2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -739,13 +739,16 @@ section{
 /* media queries  */
 
 @media (max-width:991px){
+    
 
     html{
         font-size: 55%;
+
     }
 
     .header .header-1{
         padding:2rem;
+        color: #3f9272;
     }
 
     section{
